@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(230, 233, 233, 0.904);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #080224;
+    background-color: #4e4e52;
+}
+
+.profile img {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.details h1 {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.details p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.about, .education, .skills, .languages, .certifications,.section {
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0a0a0a; /* Green for a nice touch */
+    padding-bottom: 20px;
+    padding-top: 10px; /* Added some top padding */
+    background-color: #ebe6e6; /* Light grey background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(7, 7, 7, 0.1); /* Slight shadow for depth */
+}
+
+
+h2 {
+    margin-bottom: 15px;
+    color: #161616;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.skills li {
+    color: #000000;
+   
+}
+
+.languages p {
+    margin: 5px 0;
+    color: #000000;
+}
+
+.certifications li {
+    color: #000000;
+}
+
+a {
+    color: #edf0f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
