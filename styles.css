@@ -104,3 +104,56 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .profile img {
+        margin-bottom: 15px;
+    }
+
+    .details {
+        margin-left: 0;
+    }
+
+    .details h1 {
+        font-size: 1.5rem;
+    }
+
+    .about,
+    .education,
+    .skills,
+    .languages,
+    .achievements,
+    .section {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .details h1 {
+        font-size: 1.3rem;
+    }
+
+    .details p {
+        font-size: 0.9rem;
+    }
+}
